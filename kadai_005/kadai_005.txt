@@ -1,0 +1,14 @@
+sanaatang@sanaatang-2 ~ % mkdir git_challenge
+sanaatang@sanaatang-2 ~ % cd git_challende
+sanaatang@sanaatang-2 git_challenge % git init
+Initialized empty Git repository in ~/git_kadai/git_challenge/.git/
+sanaatang@sanaatang-2 git_challenge % echo "こんにちは、世界！" >> hello_world.txt
+sanaatang@sanaatang-2 git_challenge % git add hello_world.txt   
+sanaatang@sanaatang-2 git_challenge % git commit -m "hello_world.txtを追加"
+sanaatang@sanaatang-2 git_challenge % git add hello_world.txt 
+sanaatang@sanaatang-2 git_challenge % git commit -m 日本語訳を追記
+[main b34e373] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+sanaatang@sanaatang-2 git_challenge % git log --oneline
+b34e373 (HEAD -> main) 日本語訳を追記
+8c6505f hello_world.txtを追加
